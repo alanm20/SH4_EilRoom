@@ -9,5 +9,9 @@
   3. Enter a scene id between 0 and 32. Keep tool running.
   4. View Eileen'a apartment for the change. 
   5. Exit scene and choose another scene id. repeat
+ 
+# Acknonlegement:
+
+Process memory read/write sample code base on: https://github.com/IDouble/Simple-Memory-Reading-Writing
 
 

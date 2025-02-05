@@ -3,6 +3,9 @@
 // SH4EilRoom : Change Eileen's room scene (0 - 32)
 // Works with GOG Release of Silent Hill 4: The Room
 // by alanm1
+//
+// Acknowledgement: Memory read/write code sample from https://github.com/IDouble/Simple-Memory-Reading-Writing
+
 
 #include <iostream>
 #include <Windows.h>

@@ -1,4 +1,4 @@
-# Silent Hill 4 Elieen apartment scenes
+# Silent Hill 4 Eileen apartment scenes
 
 ## Select which scene to play when viewing Eileen's apartment
 - Only work with GOG release of "Silent Hill 4: The Room"

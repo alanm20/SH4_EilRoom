@@ -10,7 +10,7 @@
   4. View Eileen'a apartment for the change. 
   5. Exit scene and choose another scene id. repeat
  
-# Acknonlegement:
+# Acknowlegement:
 
 Process memory read/write sample code base on: https://github.com/IDouble/Simple-Memory-Reading-Writing
 

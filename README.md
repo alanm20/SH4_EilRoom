@@ -1,6 +1,6 @@
-## Silent Hill 4 Elieen apartment scenes
+# Silent Hill 4 Elieen apartment scenes
 
-# Select which scene to play when viewing Eileen's apartment
+## Select which scene to play when viewing Eileen's apartment
 - Only work with GOG release of "Silent Hill 4: The Room"
 - Download executable from the release tag section
 
@@ -10,7 +10,7 @@
   4. View Eileen'a apartment for the change. 
   5. Exit scene and choose another scene id. repeat
  
-# Acknowlegement:
+## Acknowlegement:
 
 Process memory read/write sample code base on: https://github.com/IDouble/Simple-Memory-Reading-Writing
 

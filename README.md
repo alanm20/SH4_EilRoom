@@ -8,7 +8,7 @@
   2. Run SH4EilRoom.exe, it will try to find the running game.
   3. Enter a scene id between 0 and 32. Keep tool running.
   4. View Eileen's apartment in game to see the cut-scene. 
-  5. Exit scene and choose another scene id. repeat
+  5. Exit game scene and choose another scene id with this tool. repeat.
  
 ## Acknowlegement:
 

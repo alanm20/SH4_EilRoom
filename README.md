@@ -1,7 +1,7 @@
 ## Silent Hill 4 Elieen apartment scenes
 
 # Select which scene to play when viewing Eileen's apartment
-- Only work with GOG "Release of Silent Hill 4: The Room"
+- Only work with GOG release of "Silent Hill 4: The Room"
 - Download executable from the release tag section
 
   1. run GOG Silent Hill 4. load a save game that let you view Eileen's apartment

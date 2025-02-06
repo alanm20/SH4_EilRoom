@@ -37,6 +37,11 @@ int CheckAndChange(HANDLE handle, int addr, int expect, int newValue)
 	return Found;
 }
 
+bool IsProcessHandleValid(HANDLE hProcess) {
+	DWORD exitCode;
+	return GetExitCodeProcess(hProcess, &exitCode) && exitCode == STILL_ACTIVE;
+}
+
 int main() {
 	int newValue = 5000;
 	int readTest = 0; // We store the Value we read from the Process here
@@ -94,6 +99,13 @@ int main() {
 							cout << "Id out of range.";
 						else
 						{
+							if (!IsProcessHandleValid(handle))
+							{
+								CloseHandle(handle);
+								cout << "Process terminated.";
+								break;
+							}
+
 							codeSetDemoIndex[1] = (BYTE)number;
 
 							WriteProcessMemory(handle, (PBYTE*)(addrSetDemoIndex), codeSetDemoIndex, sizeCode, 0);
